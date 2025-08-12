@@ -21,7 +21,7 @@ const videoPortfolio: VideoItem[] = [
     description: "A compelling corporate brand video showcasing modern business excellence with sophisticated visual storytelling and professional color grading.",
     src: "/videos/video1.mp4",
     category: "Corporate",
-    duration: "2:30"
+    duration: "0:16"
   },
   {
     id: "portfolio-2",
@@ -29,7 +29,7 @@ const videoPortfolio: VideoItem[] = [
     description: "An engaging product showcase featuring cinematic quality editing, smooth motion graphics, and captivating visual effects that drive engagement.",
     src: "/videos/video2.mp4",
     category: "Commercial",
-    duration: "1:45"
+    duration: "0:13"
   }
 ];
 
@@ -234,9 +234,9 @@ export default function VideoPortfolio() {
                   🚀 Ready to Create?
                 </span>
               </div>
-              <h3 className="text-4xl md:text-5xl font-bold mb-6">
-                Let's Bring Your Vision to Life
-              </h3>
+                             <h3 className="text-4xl md:text-5xl font-bold mb-6">
+                 Let&apos;s Bring Your Vision to Life
+               </h3>
               <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto leading-relaxed">
                 Transform your ideas into <span className="font-semibold">cinematic excellence</span> with our expert video editing services.
               </p>
