@@ -14,6 +14,7 @@ import HeroGeometric from "@/components/common/hero-geometric";
 import { useEffect, useState } from "react";
 import ProjectModal from "@/components/common/project-modal";
 import RecentProjects from "@/components/common/recent-projects";
+import WhatsAppButton from "@/components/common/whatsapp-button";
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false);
@@ -50,6 +51,7 @@ export default function Home() {
       <AppointmentCTA />
       </div>
       <FooterGeometric />
+      <WhatsAppButton />
     </main>
   );
 }

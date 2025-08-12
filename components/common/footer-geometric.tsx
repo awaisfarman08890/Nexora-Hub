@@ -28,7 +28,7 @@ const footerLinks: FooterLink[] = [
     title: "Resources",
     links: [
       { label: "Industries", href: "/#industries" },
-      { label: "Book an appointment", href: "/#contact" },
+      { label: "Book an appointment", href: "https://wa.me/923447535644" },
     ],
   },
   {
@@ -241,7 +241,6 @@ export default function FooterGeometric() {
               Terms of Service
             </Link>
           </div>
-          <script src="//code.tidio.co/pjn3klkt4iy275pwtwp3o1gddklodkau.js" async></script>
         </motion.div>
       </div>
     </footer>
