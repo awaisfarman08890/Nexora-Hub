@@ -147,16 +147,14 @@ export default function FooterGeometric() {
             viewport={{ once: true }}
             className="lg:col-span-2"
           >
-            <Link href="/" className="flex items-center gap-2 mb-6">
-              <Image src="/images/img.png" alt="Nexora Hub" width={32} height={32} />
-              <span className={cn("font-medium text-xl tracking-tight", isDark ? "text-white" : "text-black")}>
-                Nexora Hub
-              </span>
-            </Link>
+                    <Link href="/" className="flex items-center gap-2 mb-6">
+          <Image src="/logo.png" alt="Nexora Hub" width={40} height={40} />
+          <span className={cn("font-medium text-xl tracking-tight", isDark ? "text-white" : "text-black")}>
+            Nexora Hub
+          </span>
+        </Link>
             <p className={cn("text-sm leading-relaxed mb-6 max-w-md", isDark ? "text-white/50" : "text-black/60")}>
-            🚀 From Figma Design to SaaS & App Development, Nexora Hub is your partner for seamless business growth!
-🏢 We offer Business Setup, 📈 Digital Marketing, 🤝 Client Onboarding, and 🎯 Sales Funnel Creation to maximize your conversions and revenue.
-💻 Our development expertise includes Web Development, 🌐 WordPress Development, 🛒 Shopify Development, along with custom ⚙️ Extensions, 🔌 Plugins, and much more to power your business to new heights!
+            🌐🚀 Complete digital solutions – from 🌟 Website & SaaS Development to 📱💬 Social Media Marketing, 🛒📦 E-commerce (Amazon | eBay | Walmart | Etsy | Shopify), 🔍📈 SEO & Product Research, 🎬✨ Video Editing & more – to grow your business fast! 💡📊
             </p>
             <div className="flex items-center gap-4">
               {socialLinks.map((social) => {

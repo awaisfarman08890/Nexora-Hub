@@ -185,13 +185,12 @@ export default function HeroGeometric({
                 : "bg-black/[0.03] border border-black/[0.08]"
             )}
           >
-            <Image
-              src="/images/img.png"
-              alt="Nexora Hub
-"
-              width={20}
-              height={20}
-            />
+                    <Image
+          src="/logo.png"
+          alt="Nexora Hub"
+          width={24}
+          height={24}
+        />
             <span
               className={cn(
                 "text-sm tracking-wide",

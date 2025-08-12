@@ -1,0 +1,21 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left vertical stroke - cyan -->
+  <rect x="8" y="6" width="4" height="36" fill="#00D4FF"/>
+  
+  <!-- Diagonal stroke - split into two parts -->
+  <!-- Upper white part -->
+  <path d="M12 6L22 20L12 20L12 6Z" fill="white"/>
+  
+  <!-- Lower cyan part -->
+  <path d="M12 20L22 34L12 34L12 20Z" fill="#00D4FF"/>
+  
+  <!-- Right vertical stroke - white -->
+  <rect x="36" y="6" width="4" height="36" fill="white"/>
+  
+  <!-- Motion lines -->
+  <!-- Upper white curve -->
+  <path d="M16 18C18 16 20 16 22 18" stroke="white" stroke-width="1" fill="none"/>
+  
+  <!-- Lower cyan curve -->
+  <path d="M16 26C18 28 20 28 22 26" stroke="#00D4FF" stroke-width="1" fill="none"/>
+</svg>

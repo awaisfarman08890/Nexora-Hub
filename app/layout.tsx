@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nexora Hub",
   description: "🌐🚀 We offer complete digital solutions – 🌟 Website & SaaS Development, 📱 Social Media Marketing, 🛒 E-commerce Management, 🔍 SEO & Product Research, 🎬 Video Editing – to grow your business faster! 💡📊",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

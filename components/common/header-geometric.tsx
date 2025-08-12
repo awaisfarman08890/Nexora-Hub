@@ -66,20 +66,20 @@ export default function HeaderGeometric() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            <Link href="/" className="flex items-center gap-2">
-              <Image
-                src="/images/img.png"
-                alt="Nexora Hub"
-                width={24}
-                height={24}
-                className="sm:w-[28px] sm:h-[28px]"
-              />
-              <span
-                className={cn("font-medium text-base sm:text-lg tracking-tight", isDark ? "text-white" : "text-black")}
-              >
-                Nexora Hub
-              </span>
-            </Link>
+                    <Link href="/" className="flex items-center gap-2">
+          <Image
+            src="/logo.png"
+            alt="Nexora Hub"
+            width={48}
+            height={48}
+            className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12"
+          />
+          <span
+            className={cn("font-medium text-base sm:text-lg tracking-tight", isDark ? "text-white" : "text-black")}
+          >
+            Nexora Hub
+          </span>
+        </Link>
           </motion.div>
 
           {/* Desktop Navigation */}
