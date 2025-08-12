@@ -11,6 +11,8 @@ import FooterGeometric from "@/components/common/footer-geometric";
 import StartSimplerSection from "@/components/common/start-simpler-section";
 import PricingSection from "@/components/common/pricing-section";
 import HeroGeometric from "@/components/common/hero-geometric";
+import VideoPortfolio from "@/components/common/video-portfolio";
+
 import { useEffect, useState } from "react";
 import ProjectModal from "@/components/common/project-modal";
 import RecentProjects from "@/components/common/recent-projects";
@@ -39,6 +41,7 @@ export default function Home() {
       <div id="projects">
         <RecentProjects />
       </div>
+      <VideoPortfolio />
       <AppointmentCTA />
       <BusinessGrowth />
       <ClientReviews />
