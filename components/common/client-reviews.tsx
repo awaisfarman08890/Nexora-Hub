@@ -20,7 +20,7 @@ interface Review {
 const reviews: Review[] = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Michelle Chen",
     position: "Marketing Director",
     company: "Elevate Digital",
     review:
@@ -31,14 +31,14 @@ const reviews: Review[] = [
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Sarah Johnson",
     position: "CEO",
     company: "Nexus Solutions",
     review:
       "Working with Nexora Hub was a game-changer for our startup. Their automation expertise streamlined our operations and the website they built has received countless compliments from our clients. Highly recommend their services!",
     rating: 4.9,
     image: "/logos/2.png",
-    gender: "male",
+    gender: "female",
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const reviews: Review[] = [
   },
   {
     id: 4,
-    name: "David Wilson",
+    name: "James Patel",
     position: "Operations Director",
     company: "Quantum Finance",
     review:
@@ -64,14 +64,14 @@ const reviews: Review[] = [
   },
   {
     id: 5,
-    name: "Jessica Patel",
+    name: "David Wilson",
     position: "Founder",
     company: "Wellness Collective",
     review:
       "Nexora Hub understood our vision perfectly and translated it into a beautiful, functional website that truly represents our brand. The design is not only aesthetically pleasing but also drives conversions effectively.",
     rating: 4.9,
     image: "/logos/5.png",
-    gender: "female",
+    gender: "male",
   },
   {
     id: 6,
