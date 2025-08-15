@@ -158,7 +158,7 @@ export default function TrustedBySection() {
             solutions.
           </p>
           <Link
-            href="https://wa.me/923447535644"
+            href="https://calendly.com/trevomedia5"
             className={cn(
               "inline-flex items-center gap-2 px-6 py-3 rounded-full",
               "bg-gradient-to-r from-indigo-500 to-rose-500",
