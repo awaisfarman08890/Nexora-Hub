@@ -111,7 +111,7 @@ export default function HeaderGeometric() {
               <ModeToggle />
             </div>
             <Link
-              href="https://wa.me/923447535644"
+              href="https://calendly.com/trevomedia5"
               className={cn(
                 "inline-flex items-center justify-center px-4 py-2 rounded-full",
                 "bg-gradient-to-r from-indigo-500/80 to-rose-500/80",
@@ -168,7 +168,7 @@ export default function HeaderGeometric() {
               <ModeToggle />
             </div>
             <Link
-              href="https://wa.me/923447535644"
+              href="https://calendly.com/trevomedia5"
               onClick={() => setMobileMenuOpen(false)}
               className={cn(
                 "inline-flex items-center justify-center px-4 py-3 mt-2 rounded-full",
