@@ -84,7 +84,7 @@ export default function AppointmentCTA() {
           className="flex justify-center"
         >
           <Link
-            href="https://calendly.com/trevomedia5"
+            href="https://wa.me/923447535644"
             className={cn(
               "group relative",
               "inline-flex items-center gap-3 px-8 py-4 rounded-full",
