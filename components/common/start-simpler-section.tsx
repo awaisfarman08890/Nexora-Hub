@@ -133,7 +133,7 @@ export default function StartSimplerSection() {
           className="flex justify-center"
         >
           <Button 
-            onClick={() => window.open("https://calendly.com/trevomedia5", "_blank")}
+            onClick={() => window.open("https://wa.me/923447535644", "_blank")}
             className="px-8 py-6 rounded-full bg-gradient-to-r from-indigo-500/80 to-rose-500/80 hover:from-indigo-500/90 hover:to-rose-500/90 text-white font-medium text-lg transition-all duration-300 shadow-lg shadow-indigo-500/20 hover:shadow-xl hover:shadow-rose-500/30 border-0"
           >
             Book an Appointment

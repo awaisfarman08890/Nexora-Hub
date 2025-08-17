@@ -182,7 +182,7 @@ export default function PricingSection() {
                   className="inline-block"
                 >
                   <Button
-                    onClick={() => window.open("https://calendly.com/trevomedia5", "_blank")}
+                    onClick={() => window.open("https://wa.me/923447535644", "_blank")}
                     className="relative bg-gradient-to-r from-indigo-500 via-purple-500 to-rose-500 hover:from-indigo-600 hover:via-purple-600 hover:to-rose-600 text-white shadow-2xl shadow-indigo-500/30 hover:shadow-3xl hover:shadow-rose-500/40 border-0 px-12 py-6 text-xl font-bold rounded-2xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden group"
                   >
                     <span className="relative z-10 flex items-center gap-2">

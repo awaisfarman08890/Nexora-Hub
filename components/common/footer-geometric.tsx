@@ -28,7 +28,7 @@ const footerLinks: FooterLink[] = [
     title: "Resources",
     links: [
       { label: "Industries", href: "/#industries" },
-      { label: "Book an appointment", href: "https://calendly.com/trevomedia5" },
+      { label: "Book an appointment", href: "https://wa.me/923447535644" },
     ],
   },
   {
